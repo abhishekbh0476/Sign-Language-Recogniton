@@ -5,19 +5,19 @@ It recognizes hand gestures (A–Z) and converts them into readable characters w
 
 📌 Features
 
-✅ Real-time hand gesture recognition using webcam
+1.Real-time hand gesture recognition using webcam
 
-✅ Image-based sign recognition (upload photo)
+2.Image-based sign recognition (upload photo)
 
-✅ CNN-based trained model (.h5)
+3.CNN-based trained model (.h5)
 
-✅ Graphical User Interface (Tkinter)
+4.Graphical User Interface (Tkinter)
 
-✅ Text-to-Speech output
+5.Text-to-Speech output
 
-✅ ASL alphabet reference image
+6.ASL alphabet reference image
 
-✅ Supports English alphabets (A–Z)
+7.Supports English alphabets (A–Z)
 
 🛠️ Technologies Used
 
@@ -35,18 +35,6 @@ Pillow
 
 pyttsx3
 
-📂 Project Structure
-Sign-Language-Recogniton/
-│
-├── final.py              # Main application file
-├── modelslr.h5           # Trained CNN model
-├── modelslr1.h5          # Alternate trained model
-├── DATASET.rar           # Training dataset (32 MB)
-├── backdown.jpg          # ASL alphabet reference image
-├── download.jpg          # GUI resource image
-├── requirements.txt      # Required Python libraries
-├── .gitignore            # Ignored files/folders
-└── README.md             # Project documentation
 
 ▶️ How to Run the Project
 1️⃣ Clone the Repository
