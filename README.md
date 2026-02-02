@@ -1,90 +1,45 @@
-Sign Language Recognition System
+![Profile views](https://komarev.com/ghpvc/?username=abhishekbh0476&color=blue)
 
-This project implements a Sign Language Recognition System using Deep Learning, OpenCV, and a GUI-based application.
-It recognizes hand gestures (A–Z) and converts them into readable characters with voice output.
+![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Sign+Language+Recognition+Project;Deep+Learning+%7C+Computer+Vision;Python+%7C+OpenCV+%7C+CNN;Real-Time+Gesture+Recognition)
 
-📌 Features
+# 🤟 Sign Language Recognition System  
 
-1.Real-time hand gesture recognition using webcam
+### A Deep Learning–based system to recognize hand gestures and convert sign language into meaningful output 🚀  
 
-2.Image-based sign recognition (upload photo)
+---
 
-3.CNN-based trained model (.h5)
+## 🧠 About the Project
 
-4.Graphical User Interface (Tkinter)
+This **Sign Language Recognition System** uses **Computer Vision and Deep Learning** to detect and classify hand gestures in real time through a webcam.  
+It aims to reduce the communication gap between hearing-impaired individuals and non-sign language users.
 
-5.Text-to-Speech output
+---
 
-6.ASL alphabet reference image
+## ✨ Key Features
+- 🎥 Real-time hand gesture recognition using webcam  
+- 🧠 CNN-based deep learning model  
+- 📊 Trained `.h5` models for accurate prediction  
+- ⚡ Fast and efficient Python implementation  
+- 🔁 Easily extendable for more gestures  
 
-7.Supports English alphabets (A–Z)
+---
 
-🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-Python
+### 👨‍💻 Languages & Tools Used
+<p>
+<img src="https://skillicons.dev/icons?i=python,opencv,tensorflow,keras,numpy,git,github,linux" />
+</p>
 
-TensorFlow / Keras
-
-OpenCV
-
-NumPy
-
-Tkinter
-
-Pillow
-
-pyttsx3
+---
 
 
-▶️ How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/abhishekbh0476/Sign-Language-Recogniton.git
-cd Sign-Language-Recogniton
+## ⚙️ Installation & Setup
 
-2️⃣ Create Virtual Environment (Optional but Recommended)
-python -m venv venv
-venv\Scripts\activate
-
-3️⃣ Install Dependencies
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/abhishekbh0476/Sign-Language-Recognition.git
+cd Sign-Language-Recognition
 pip install -r requirements.txt
+python app.py
 
-4️⃣ Run the Application
-python final.py
-
-🎥 How It Works
-
-The user opens the camera or uploads an image.
-
-The hand region is extracted using OpenCV.
-
-The image is preprocessed and passed to the trained CNN model.
-
-The predicted alphabet is displayed in the GUI.
-
-The predicted character is spoken using Text-to-Speech.
-
-📊 Dataset Information
-
-The dataset used for training is included as DATASET.rar (32 MB).
-
-It contains labeled hand gesture images for alphabets A–Z.
-
-The dataset is used only for training purposes.
-
-📌 Notes
-
-Ensure good lighting conditions for better prediction accuracy.
-
-Show only one hand inside the camera bounding box.
-
-Press SPACE to capture the gesture during live detection.
-
-👨‍💻 Author
-
-Abhishek BH
-Computer Science Engineering (CSE)
-Sign Language Recognition Project
-
-📜 License
-
-This project is created for academic and learning purposes.
